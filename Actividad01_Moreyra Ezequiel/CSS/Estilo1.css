@@ -1,0 +1,40 @@
+body
+{ 
+    background-color:#b9ad77;
+}
+header a
+{ 
+    float:right;
+}
+header li
+{ 
+display: inline;
+}
+header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #b285fa78;
+        z-index: 99999999;
+}
+p 
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+table
+ {
+    border: rgb(0, 0, 0) 2px solid;
+  }
